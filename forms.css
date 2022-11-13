@@ -44,11 +44,18 @@ header{
     border-top-style: solid;
 }
 
+/* #related */
 #related{
     background-color: #2a2f33;
     color: white;
 }
 
+#related a{
+    text-decoration: none;
+    color: white;
+}
+
+/* #news */
 #news > article h1 > a{
     text-decoration: none;
     color: white;
@@ -57,4 +64,26 @@ header{
 
 #news > article > p:first-of-type::first-letter{
     font-size: 300%;
+}
+
+/* Footers */
+footer{
+    background-color: salmon;
+    padding: 10px;
+    color: white;
+}
+
+[class="date"]{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer a{
+    color: white;
+}
+
+body > footer{
+    background-color: #2a2f33;
+    padding: 5px;
+    color: white;
 }
